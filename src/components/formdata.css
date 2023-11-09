@@ -1,0 +1,60 @@
+.parentClass{
+
+    background-color: rgb(138, 123, 123);
+
+}
+
+
+.loading{
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.card{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+
+}
+
+
+.postData{
+    width: 400px;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff8d;
+    border-radius: 8px;
+
+}
+
+.postData:hover{
+    background-color: rgba(137, 43, 226, 0.459);
+    cursor: pointer;
+}
+
+
+.userid{
+    text-align: center;
+    color: rgb(255, 47, 179);
+    font-size: 24px;
+}
+.title{
+    text-align: center;
+    color: rgb(199, 10, 232);
+    font-size: 24px;
+    text-decoration: underline;
+    padding: 5px;
+
+}
+
+.body{
+    line-height: 1.5;
+}
